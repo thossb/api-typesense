@@ -33,7 +33,7 @@ i have uploaded the postman collection to be tried locally
 ![image](https://github.com/user-attachments/assets/5ebb52f3-282e-49d3-9caf-9bab26924a3b)
 
 ###Note
-- this is a mockupapps, with unfinished routing.
+- this is a mockupapps, with unfinished routing. ( to be discussed if needed )
 - yellow ai payload json must be formated / parsed to be the following ( to be discussed if needed )
 ```
 [

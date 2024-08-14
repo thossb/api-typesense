@@ -1,0 +1,52 @@
+{
+	"info": {
+		"_postman_id": "42277367-ce97-4a43-8743-790bbec5da70",
+		"name": "Yellow APi",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json",
+		"_exporter_id": "27169092"
+	},
+	"item": [
+		{
+			"name": "Get All Products",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "Delete Collection",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "Insert Product",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "[\r\n  {\r\n    \"product_name\": \"WARDAH LIGHTENING BLUE CLAY MASK 50 G\",\r\n    \"product_id\": \"WDH29\",\r\n    \"description\": \"\",\r\n    \"price\": \"\",\r\n    \"original_price\": \"19500\",\r\n    \"category\": \"Anti aging\",\r\n    \"weight\": \"200\",\r\n    \"in_stock\": \"true\"\r\n  },\r\n  {\r\n    \"product_name\": \"MILNA BABY BISC ORIGINAL 130 GR\",\r\n    \"product_id\": \"MBRGB\",\r\n    \"description\": \"\",\r\n    \"price\": \"\",\r\n    \"original_price\": \"16700\",\r\n    \"category\": \"Other mother & child\",\r\n    \"weight\": \"200\",\r\n    \"in_stock\": \"true\"\r\n  }\r\n]\r\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://localhost:8000/products"
+			},
+			"response": []
+		},
+		{
+			"name": "Search Algorithm",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		}
+	]
+}
